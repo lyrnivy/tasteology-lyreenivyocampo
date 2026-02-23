@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="An exploration of cooking, molecular gastronomy, and the impact of food colors on taste.">
+  <meta name="keywords" content="Cooking, Egg, Flavor">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <title>Tasteology</title>
+</head>
+
+<body>
+  <div id="app">
+
+    <main class="page__content">
+      <!-- First Section -->
+      <section class="editorial">
+        <div class="editorial__container">
+          <div class="gallery" aria-label="Gallery of cooking image">
+          </div>
+
+          <article class="editorial-content">
+            <h1 class="editorial-content__title">WHAT DOES COOKING MEAN?</h1>
+            <hr class="editorial-content__divider">
+            <p class="editorial-content__text">
+              Is it simply applying heat to a food product? A way of making certain food safe to eat? Or a way to create
+              flavour and make food more appealing? This is just part of what Hervé This, the father of molecular
+              gastronomy, has dedicated his life to finding out. We spoke to him to find out what his experiments have
+              told him. And in the process even discovered the secret to cooking the perfect egg...
+            </p>
+            <div class="editorial-content__footer">
+              <h3 class="editorial-content__label">The Perfect Egg</h3>
+              <p class="editorial-content__subtitle">Keep water between 67 and 68°C for a flavourful, tender yolk</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Second Section -->
+      <section class="cards-block">
+        <div class="cards-block__container">
+          <h2 class="cards-block__title">TASTE THE COLOURS</h2>
+          <hr class="cards-block__divider">
+
+          <div class="cards-block__grid">
+            <article class="card">
+              <div class="card__image-wrapper">
+                <img src="/assets/images/red-spoon.png" alt="Red food sample on a spoon" class="card__image">
+              </div>
+              <h3 class="card__label">RED</h3>
+              <p class="card__text">
+                Red foods remind us of berries and soft fruits, so we anticipate a sweet taste.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card__image-wrapper">
+                <img src="/assets/images/green-spoon.png" alt="Green food sample on a spoon" class="card__image">
+              </div>
+              <h3 class="card__label">Green</h3>
+              <p class="card__text">
+                Fresh, zingy green colours are reminiscent of unripe fruit, promising sour or acid flavours
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card__image-wrapper">
+                <img src="/assets/images/white-spoon.png" alt="White food sample on a spoon" class="card__image">
+              </div>
+              <h3 class="card__label">White</h3>
+              <p class="card__text">
+                White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- Modal for gallery section -->
+  <template id="modal-template">
+    <div id="image-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal__overlay" data-close></div>
+      <div class="modal__content">
+        <button class="modal__close" aria-label="Close modal" data-close>&times;</button>
+        <img src="" alt="" class="modal__image">
+      </div>
+    </div>
+  </template>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+
+</html>
