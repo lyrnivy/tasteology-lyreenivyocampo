@@ -1,19 +1,19 @@
 const cardData = [
     {
       title: "RED",
-      image: "/tasteology-lyreenivyocampo/images/red-spoon.png",
+      image: "/tasteology-lyreenivyocampo/assets/images/red-spoon.png",
       text: "Red foods remind us of berries and soft fruits, so we anticipate a sweet taste.",
       link: "https://example.com/red"
     },
     {
       title: "Green",
-      image: "/tasteology-lyreenivyocampo/images/green-spoon.png",
+      image: "/tasteology-lyreenivyocampo/assets/images/green-spoon.png",
       text: "Fresh, zingy green colours are reminiscent of unripe fruit, promising sour or acid flavours.",
       link: "https://example.com/green"
     },
     {
       title: "White",
-      image: "/tasteology-lyreenivyocampo/images/white-spoon.png",
+      image: "/tasteology-lyreenivyocampo/assets/images/white-spoon.png",
       text: "White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat.",
       link: "https://example.com/white"
     }
