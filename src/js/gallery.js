@@ -1,7 +1,7 @@
 const galleryData = [
-    { src: "/assets/images/pan-boil.png", alt: "Pot cooking with glutinous rice", isLarge: true },
-    { src: "/assets/images/chef-hands.png", alt: "Chef prepping", isLarge: false },
-    { src: "/assets/images/egg-tray.png", alt: "Egg cracks in a tray", isLarge: false },
+    { src: "assets/images/pan-boil.png", alt: "Pot cooking with glutinous rice", isLarge: true },
+    { src: "assets/images/chef-hands.png", alt: "Chef prepping", isLarge: false },
+    { src: "assets/images/egg-tray.png", alt: "Egg cracks in a tray", isLarge: false },
   ];
   
   export function initGallery() {
