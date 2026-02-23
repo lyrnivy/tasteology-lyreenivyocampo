@@ -1,0 +1,15 @@
+:root {
+    --color-bg: #121416;
+    --color-text: #ffffff;
+    --color-muted: #a0a0a0;
+    --color-accent: #cf2e2e;
+    --font-main: 'OpenSans';
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-main);
+    line-height: 1.6;
+
+}
