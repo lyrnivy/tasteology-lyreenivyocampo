@@ -1,6 +1,13 @@
 # tasteology-lyreenivyocampo
 For orchard frontend test only
 
+Preview:
+https://lyrnivy.github.io/tasteology-lyreenivyocampo/
+
+
+Getting Started
+To run this project locally, use npm install to fetch dependencies and npm run dev to start the local development server. For production, npm run build generates the optimized files in the dist directory.
+
 
 Technologies & Techniques
 Vite & ES6+: Utilized as the build tool and module bundler for high-performance development and optimized production assets.
@@ -16,6 +23,12 @@ Gallery Block: A fully functional, interactive gallery component built to meet s
 
 Responsive Cards: Dynamic card components styled with BEM, optimized for various screen sizes and modern browser standards (phone, tablet, monitor)
 
-Getting Started
-To run this project locally, use npm install to fetch dependencies and npm run dev to start the local development server. For production, npm run build generates the optimized files in the dist directory.
+Console logging: 
+      Added these loggers for checking events it will trigger with every gallery photo click and Card link, often found in 'Logs Tab' in the Inspect Element of every browser.
+
+      //add logging to gallery photo too dynamically and description of image
+      console.log(`Gallery Photo is Clicked: ${modalImg.src} | Alt: ${modalImg.alt }`);
+
+      console.log(`Card Link Clicked: ${link.href}`);
+
 

@@ -40,6 +40,9 @@ const galleryData = [
       modalImg.alt = btn.querySelector('img').alt;
       modal.setAttribute('aria-hidden', 'false'); // Show modal
       document.body.style.overflow = 'hidden';    // Disable scroll
+
+      //add logging to gallery photo too dynamically and description of image
+      console.log(`Gallery Photo is Clicked: ${modalImg.src} | Alt: ${modalImg.alt }`);
     });
   
     // Close Logic
